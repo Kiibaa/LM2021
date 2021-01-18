@@ -29,8 +29,16 @@ body{
     background-color: lemonchiffon;
     border: 1px solid #c0c0c0;
     padding: 20px;
+    padding-bottom: 20px;
 }
-
+#headbanner{
+       height: 50px;
+       width: 50px;
+       float: left;
+       padding-right: 20px;
+       padding-bottom: 20px;
+       
+}
 #menu{
     background-color: coral;
     padding: 5px 15px;
@@ -44,14 +52,15 @@ body{
 
 #main {
     float: left;
-    width: 660px;
+    width: 600px;
+    height: 800;
     margin: 20px;
 }
 
 #column {
-    float: left;
+    float: right;
     width: 220px;
-    margin: 20px 0px;
+    margin: 20px 0px 20px;
     padding: 20px;
     background: crimson;
     
@@ -72,4 +81,8 @@ article {
 article footer {
     text-align: center;
     text-decoration: underline;
+}
+
+#mainArt {
+    font-size: medium bold;
 }
