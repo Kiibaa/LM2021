@@ -1,0 +1,67 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    padding: 20px;
+    color: blue;
+    background: grey;
+    text-align: left;
+    font-size: 20px;
+}
+section {
+    display: flex;
+    justify-content: space-between
+}
+article {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    
+}
+img {
+    width: 50%;
+}
+
+h1 {
+    color: white;
+}
+#articulocabeza {
+    color: blue;
+    text-align: right;
+    size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#articulo1 {
+    background: rgb(95, 95, 228);
+    border-radius: 15% 0% 15% 0%;
+    margin: 1%;
+    border: solid 1px blue;    
+}
+#articulo2 {
+    background: rgb(209, 117, 64);
+    border-radius: 15% 0% 15% 0%;
+    margin: 1%;
+    border: solid 1px blue;
+}
+#articulo3 {
+    background: rgb(185, 54, 76);
+    border-radius: 15% 0% 15% 0%;
+    margin: 1%;
+    border: solid 1px blue;
+}
+#articulo4 {
+    background: grey;
+    border-radius: 15% 0% 15% 0%;
+    margin-top: 5px;
+    border: solid 1px blue;
+}
+#articulo4-5 {
+    background: white;
+    border-radius: 15% 0% 15% 0%;
+    margin: 1px;
+    border: solid 1px blue;
+    width: 95%;
+    height: 10%;
+}
