@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script type="text/javascript" src="validaciones/validaciones.js"></script>
+</head>
+<body>
+    <form action="" method="GET" name="nombreFormulario" onsubmit="return validarFormulario()">
+        <table>
+            <tr>
+                <td><label for="Email">Email</label></td>
+                <td><input type="text" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="edad">Edad</label></td>
+                <td><input type="range" name="edad" id="edad" onchange="mostrarEdad(this)"></td>
+                <td><span id="spedad"></span></td>
+            </tr>
+            <tr>
+                <td><label for="Web">Web</label></td>
+                <td><input type="text" name="web" id="web"></td>
+            </tr>
+            <tr>
+                <td><label for="telefono">Password</label></td>
+                <td><input type="password" name="pass" id="pass"></td>
+            </tr>
+            <tr>
+                <td><label for="telefono">Repite password</label></td>
+                <td><input type="password" name="rpass" id="rpass"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Enviar"></td>
+            </tr>
+        </table>
+    </form>
+    <div id="capaerrores" style="width: 50%;float: left;color: red;visibility: hidden;">
+        <h3>Errores</h3>
+        <span id="errores"></span>
+    </div>
+</body>
+</html>
