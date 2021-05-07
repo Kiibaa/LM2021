@@ -29,7 +29,7 @@ function calcularMenor() {
 }
 
 function calculadora(operacion, numero5, numero6) {
-    alert(operacion);
+    //alert(operacion);
 
     var numero5 = document.getElementById("num5").value;
     var numero6 = document.getElementById("num6").value;
@@ -38,3 +38,4 @@ function calculadora(operacion, numero5, numero6) {
     
     if (operacion == 'suma') {
         res = eval(numero5) + eval(numero6);
+    }
